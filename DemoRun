@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<style>
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: purple;
+	position: fixed;
+	display: block;
+}
+li {
+    float: left;	
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+}
+#list {
+	height: 500px;
+	width: 384px;
+	background-color: #CACFD2;
+	float: left;
+	clear: left;
+	margin-top: 20px;
+	margin-right: 100px;
+	display: block;
+	overflow: scroll;
+}
+#box1 {
+	color: black;
+	padding: 20px;
+	background-color: white;
+	float: left;
+	clear: ul;
+	margin-top: 60px;
+	margin-left: 10px;
+	padding-right: 150px;
+	padding-bottom: 70px;
+	text-align: center;
+	box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.19);
+}
+#box2 {
+	color: black;
+	padding: 20px;
+	background-color: white;
+	float: left;
+	clear: both;
+	margin-left: 10px;
+	margin-top: 30px;
+	padding-right: 145px;
+	padding-bottom: 70px;
+	text-align: center;
+	box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.19);
+	
+}
+#end {
+	list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: purple;
+	position: fixed;
+	display: block;
+	float:left; 
+	position: relative;
+	margin-top: 0px;
+	padding-right: 310px;
+	display: inline;
+}
+img {
+	height: 30px; 
+	width: 40px;
+	padding: 10px;
+	border-radius: 90px;
+}
+#medias {
+	background-color: purple;
+}
+	
+
+				</style>
+		<body>
+			
+			<ul>
+				<li><a id ="menu" href ="#home">Home</a></li>
+				<li><a href ="#New">New</a></li>
+				<li><a href ="#Popular">Popular</a></li>
+				<li><a href ="#Recent">Recent</a></li>
+				<li><a href ="About">About</a></li>
+			</ul>
+			<div id ="list">
+				<div id ="box1"><a href ="#"><strong>Opportunity1 111-111-1111</strong></a></div>
+				<div id ="box2"><a href ="#"><strong style ="text-align: center;">Opportunity2 222-222-2222</strong></a></div>
+				<div id ="box2"><a href ="#"><strong>Oppoertunity3 333-333-3333</strong></a></div>
+				<footer id ="end">Join Us!:
+				<a href ="https://twitter.com/tribe_orion" id ="medias">
+					<img src ="http://takedesigns.com/wp-content/uploads/2012/11/new-twitter-logo.jpg">
+				</a></footer>
+			</div>
+			
+		</body></head></html>
