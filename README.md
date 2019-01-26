@@ -1,2 +1,2 @@
-# DemoApp1
-Demo run for PhoneGap
+# Community-Sync
+Community Sync
